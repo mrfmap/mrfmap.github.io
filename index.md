@@ -1,37 +1,13 @@
-## Welcome to GitHub Pages
+## MRFMap: Online Probabilistic 3D Mapping using Forward Ray Sensor Models
 
-You can use the [editor on GitHub](https://github.com/mrfmap/mrfmap.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+The MRFMap library implements occupancy inference on configurable hierarchichal 3D grids given RGB-D depth data and camera poses using forward sensor models and by explicitly ray tracing through the map volume and coupling the depth measurement with all voxels traversed per ray. 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Detailed information about the approach can be found in the paper "MRFMap: Online Probabilistic 3D Mapping using Forward Ray Sensor Models", published in the proceedings of RSS 2020.
 
-### Markdown
+The library has been developed on linux and requires CUDA support. It was developed by Kumar Shaurya Shankar at the Robotics Institute at Carnegie Mellon University. 
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## License
+MRFMap is released under the New BSD License.
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/mrfmap/mrfmap.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+## Citations
+If you use MRFMap in your work, please cite us!
