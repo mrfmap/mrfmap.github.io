@@ -1,7 +1,7 @@
 ## MRFMap: Online Probabilistic 3D Mapping using Forward Ray Sensor Models
 
 [Supplementary](https://github.com/mrfmap/mrfmap.github.io/blob/master/supp.pdf)
-[Paper]()
+[Paper](https://arxiv.org/pdf/2006.03512.pdf)
 [Repository](https://github.com/mrfmap/mrfmap)
 
 The MRFMap library implements occupancy inference on configurable hierarchical 3D grids given RGB-D depth data and camera poses using forward sensor models and by explicitly ray tracing through the map volume and coupling the depth measurement with all voxels traversed per ray. 
