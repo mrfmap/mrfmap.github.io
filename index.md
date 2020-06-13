@@ -23,7 +23,7 @@ MRFMap is released under the [BSD 3-Clause License](https://choosealicense.com/l
 
 ## Citations
 If you use MRFMap in your work, please cite us!
-```bibtex
+```
 @proceedings{shankar20mrfmap,
   author = {Shankar, Kumar Shaurya and Michael, Nathan},
   title = {{MRFMap: Online Probabilistic 3D Mapping using Forward Ray Sensor Models}},
